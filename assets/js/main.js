@@ -50,7 +50,10 @@ function updatePortfolio(profileData) {
         return `
             <li>
                 <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3> 
-                <a href="${project.url}" target="_blank">${project.url}</a>
+                <a href="${project.url.book}" target="_blank">${project.url.book}</a>
+                <a href="${project.url.cambio}" target="_blank">${project.url.cambio}</a>
+                <a href="${project.url.gateway}" target="_blank">${project.url.gateway}</a>
+                <a href="${project.url.naming}" target="_blank">${certificate.url.naming}</a>
             </li>
         `
     }).join('');
