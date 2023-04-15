@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    list-style: none;
+    /* list-style: none; */
 }
 
 .experience li {
@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.experience li .period::before {
+.experience li .date::before {
     content: '';
     display: inline-block;
     width: 1rem;

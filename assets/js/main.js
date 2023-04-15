@@ -34,7 +34,7 @@ function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills');
 
     hardSkills.innerHTML = profileData.skills.hardSkills
-    .map(image => `<li><img src="${image.logo}" alt="${image.name}" title="${image.name}"></li>`).join('');
+        .map(image => `<li><img src="${image.logo}" alt="${image.name}" title="${image.name}"></li>`).join('');
 }
 
 function updateLanguages(profileData) {
@@ -43,11 +43,41 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
 }
 
+function updatePortifolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio');
+
+    portfolio.innerHTML = profileData.portfolio.map(project => {
+        return `
+            <li>
+                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3> 
+                <a href="${project.url}" target="_blank">${project.url}</a>
+            </li>
+        `
+    }).join('');
+}
+
+function updateCertificates(profileData) {
+    const certificates = document.getElementById('profile.certificates');
+
+    certificates.innerHTML = profileData.certificates.map(certificate => {
+        return `
+            <li>
+                <h3 class="title">${certificate.name}</h3>
+                <p class="date">${certificate.date}</p>
+                <p>${certificate.description}</p>
+                <a href=<li"${certificate.url}" target="_blank">${certificate.url}</li></a>
+            </li>
+        `
+    }).join('');
+}
+
 
 (async () => {
     const profileData = await fetchProfileData();
-    updateProfileInfo(profileData); 
-    updateSoftSkills(profileData);  
+    updateProfileInfo(profileData);
+    updateSoftSkills(profileData);
     updateHardSkills(profileData);
     updateLanguages(profileData);
+    updatePortifolio(profileData);
+    updateCertificates(profileData);
 })()
