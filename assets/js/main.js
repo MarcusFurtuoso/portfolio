@@ -18,6 +18,10 @@ function updateProfileInfo(profileData) {
     phone.innerText = profileData.phone;
     phone.href = `tel:${profileData.phone}`;
 
+    const linkedin = document.getElementById('profile.linkedin');
+    linkedin.innerText = profileData.linkedin;
+    linkedin.href = `${profileData.linkedin}`;
+
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
     email.href = `mailto:${profileData.email}`;
