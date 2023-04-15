@@ -20,12 +20,11 @@ function updateProfileInfo(profileData) {
 
     const linkedin = document.getElementById('profile.linkedin');
     linkedin.innerText = profileData.linkedin;
-    linkedin.innerHTML = `<a href="${profileData.linkedin} "target="_blank">${project.url}</a>`;
+    linkedin.href = `${profileData.linkedin}`;
 
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
     email.href = `mailto:${profileData.email}`;
-
 }
 
 function updateSoftSkills(profileData) {
