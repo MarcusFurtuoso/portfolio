@@ -20,7 +20,7 @@ function updateProfileInfo(profileData) {
 
     const linkedin = document.getElementById('profile.linkedin');
     linkedin.innerText = profileData.linkedin;
-    linkedin.href = `${profileData.linkedin}`;
+    linkedin.innerHTML = `<a href="${profileData.linkedin} "target="_blank">${project.url}</a>`;
 
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
