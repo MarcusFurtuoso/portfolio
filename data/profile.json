@@ -9,19 +9,35 @@
     "hardSkills": [
       {
         "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/java.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "Spring",
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/spring.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "JavaScript",
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/js.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name": "Docker",
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/docker.png"
       },
       {
         "name": "MySQL",
-        "logo": "imgs/mysql.png"
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/mysql.png"
+      },
+      {
+        "name": "PostgresSql",
+        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
