@@ -65,7 +65,7 @@ function updateCertificates(profileData) {
                 <h3 class="title">${certificate.name}</h3>
                 <p class="date">${certificate.date}</p>
                 <p>${certificate.description}</p>
-                <a href=<li"${certificate.url}" target="_blank">${certificate.url}.</li></a>
+                <a href="${certificate.url}" target="_blank">${certificate.url}</a>
             </li>
         `
     }).join('');
