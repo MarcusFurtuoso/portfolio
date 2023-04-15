@@ -72,10 +72,10 @@
     },
     {
       "name": "Criação de uma API de livros com arquitetura de microsserviços",
-      "url.book": "https://github.com/MarcusFurtuoso/book-service",
-      "url.cambio": "https://github.com/MarcusFurtuoso/cambio-service",
-      "url.gateway": "https://github.com/MarcusFurtuoso/api-gateway",
-      "url.naming": "https://github.com/MarcusFurtuoso/naming-server",
+      "url": [ "https://github.com/MarcusFurtuoso/book-service",
+                "https://github.com/MarcusFurtuoso/cambio-service",
+                "https://github.com/MarcusFurtuoso/api-gateway",
+                "https://github.com/MarcusFurtuoso/naming-server"],
       "github": true
     }
   ],
