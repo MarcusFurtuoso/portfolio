@@ -10,7 +10,7 @@
     margin-bottom: 1rem;
 }
 
-.certificate li .period {
+.certificate li .date {
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -43,7 +43,7 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
 }
 
-function updatePortifolio(profileData) {
+function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio');
 
     portfolio.innerHTML = profileData.portfolio.map(project => {
@@ -78,6 +78,6 @@ function updateCertificates(profileData) {
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
     updateLanguages(profileData);
-    updatePortifolio(profileData);
+    updatePortfolio(profileData);
     updateCertificates(profileData);
 })()
