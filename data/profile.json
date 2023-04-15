@@ -33,11 +33,11 @@
       },
       {
         "name": "MySQL",
-        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/mysql.png"
+        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/mysql.png"
       },
       {
         "name": "PostgresSql",
-        "logo": "https://https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/postgresql.png"
+        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
