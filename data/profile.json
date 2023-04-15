@@ -56,31 +56,53 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Criação de uma Pokedex consumindo a API do poke.api",
+      "url": "https://github.com/MarcusFurtuoso/pokedex",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Criação de uma landing page",
+      "url": "https://github.com/MarcusFurtuoso/landing-page",
+      "github": true
+    },
+    {
+      "name": "Criação do meu portfólio",
+      "url": "https://github.com/MarcusFurtuoso/portfolio",
+      "github": true
+    },
+    {
+      "name": "Criação de uma API de livros com arquitetura de microsserviços",
+      "url": "https://github.com/MarcusFurtuoso/book-service",
+      "url": "https://github.com/MarcusFurtuoso/cambio-service",
+      "url": "https://github.com/MarcusFurtuoso/api-gateway",
+      "url": "https://github.com/MarcusFurtuoso/naming-server",
       "github": true
     }
   ],
-  "professionalExperience": [
+  "certificates": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Formação JavaScript Developer",
+      "date": "abr - 2023",
+      "description": "Curso de JavaScript.",
+      "url": "https://www.dio.me/certificate/EBF38DF9/share"
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Microsserviços do 0 com Spring Cloud, Spring Boot e Docker",
+      "date": "fev - 2023",
+      "description": "Curso de Spring Boot usando arquitetura de microsserviços.",
+      "url": "https://www.udemy.com/certificate/UC-f3a7945a-bdb7-4092-ae1a-0f6a283829cb/"
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Spread Java Developer",
+      "date": "mar - 2022",
+      "description": "Curso de Java com Spring Boot.",
+      "url": "https://www.dio.me/certificate/491A74BD/share"
+    },
+    {
+      "name": "Santader Bootcamp | Fullstack Developer",
+      "date": "set - 2021",
+      "description": "Curso de Java, Spring Boot e Angular.",
+      "url": "https://www.dio.me/certificate/01C98B04/share"
     }
   ]
 }
