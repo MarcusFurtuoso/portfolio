@@ -19,7 +19,6 @@ function updateProfileInfo(profileData) {
     phone.href = `tel:${profileData.phone}`;
 
     const linkedin = document.getElementById('profile.linkedin');
-    linkedin.innerText = profileData.linkedin;
     linkedin.href = `${profileData.linkedin}`;
 
     const email = document.getElementById('profile.email');
