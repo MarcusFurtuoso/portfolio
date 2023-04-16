@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('/assets/fonts/NeueMachina-Regular.otf');
+    src: url('../fonts/NeueMachina-Regular.otf');
 }
 .main {
     margin: 1rem;
