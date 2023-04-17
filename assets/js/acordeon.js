@@ -8,7 +8,7 @@ acordeonTriggers.forEach((trigger) => {
         if(isOpens) {
             acordeon.classList.remove('open');
         } else {
-            acordeon.classList.add('open')
+            acordeon.classList.add('open');
         }
     })
 })
