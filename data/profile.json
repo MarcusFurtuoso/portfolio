@@ -4,7 +4,6 @@
   "job": "Desenvolvedor Back-end",
   "location": "Boquim - SE",
   "phone": "(79) 99653-6465",
-  "linkedin": "https://www.linkedin.com/in/marcus-furtuoso-31b8b31ba/",
   "email": "marcusvini678@gmail.com",
   "skills": {
     "hardSkills": [
@@ -57,6 +56,11 @@
     "Português BR",
     "Inglês (intermediário)"
   ],
+  "linkedin": [
+    { 
+      "url" : "https://www.linkedin.com/in/marcus-furtuoso-31b8b31ba/"
+    }
+    ],
   "portfolio": [
     {
       "name": "Criação de uma Pokedex consumindo a API do poke.api",
