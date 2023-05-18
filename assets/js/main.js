@@ -18,8 +18,7 @@ function updateProfileInfo(profileData) {
     phone.innerText = profileData.phone;
     phone.href = `tel:${profileData.phone}`;
 
-    // const linkedin = document.getElementById('profile.linkedin');
-    // linkedin.href = `${profileData.linkedin}`;
+    const linkedin = getLinkedin(profileData);
 
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
@@ -82,7 +81,6 @@ function updateCertificates(profileData) {
 
 (async () => {
     const profileData = await fetchProfileData();
-    getLinkedin(profileData);
     updateProfileInfo(profileData);
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
