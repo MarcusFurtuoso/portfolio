@@ -18,12 +18,18 @@ function updateProfileInfo(profileData) {
     phone.innerText = profileData.phone;
     phone.href = `tel:${profileData.phone}`;
 
-    const linkedin = document.getElementById('profile.linkedin');
-    linkedin.href = `${profileData.linkedin}`;
+    // const linkedin = document.getElementById('profile.linkedin');
+    // linkedin.href = `${profileData.linkedin}`;
 
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
     email.href = `mailto:${profileData.email}`;
+}
+
+function getLinkedin(profileData) {
+    const linkedin = document.getElementById('profile.linkedin');
+
+    linkedin.innerHTML = profileData.linkedin.map(linkedin => `<a href="${linkedin.url}" target="_blank">${linkedin.url}</a>`).join('');
 }
 
 function updateSoftSkills(profileData) {
@@ -76,6 +82,7 @@ function updateCertificates(profileData) {
 
 (async () => {
     const profileData = await fetchProfileData();
+    getLinkedin(profileData);
     updateProfileInfo(profileData);
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
