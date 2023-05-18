@@ -18,8 +18,6 @@ function updateProfileInfo(profileData) {
     phone.innerText = profileData.phone;
     phone.href = `tel:${profileData.phone}`;
 
-
-    
     const email = document.getElementById('profile.email');
     email.innerText = profileData.email;
     email.href = `mailto:${profileData.email}`;
@@ -30,9 +28,7 @@ function updateLinkedin(profileData) {
 
     linkedin.innerHTML = profileData.linkedin.map(link => {
         return `
-            <li>
-            <a href="${link.url}" target="_blank">${link.url}</a>
-            </li>
+            <a href="${link.url}" target="_blank">${link.user}</a>
         `;
     }).join('');
 }

@@ -5,6 +5,12 @@
   "location": "Boquim - SE",
   "phone": "(79) 99653-6465",
   "email": "marcusvini678@gmail.com",
+  "linkedin": [
+    {
+      "user": "/marcus-furtuoso-31b8b31ba/",
+      "url": "https://www.linkedin.com/in/marcus-furtuoso-31b8b31ba/"
+    }
+  ],
   "skills": {
     "hardSkills": [
       {
@@ -56,11 +62,6 @@
     "Português BR",
     "Inglês (intermediário)"
   ],
-  "linkedin": [
-    { 
-      "url": "https://www.linkedin.com/in/marcus-furtuoso-31b8b31ba/"
-    }
-    ],
   "portfolio": [
     {
       "name": "Criação de uma Pokedex consumindo a API do poke.api",
@@ -79,7 +80,7 @@
     },
     {
       "name": "Criação de uma API de livros com arquitetura de microsserviços",
-      "url":  "https://github.com/MarcusFurtuoso/microservices-book",
+      "url": "https://github.com/MarcusFurtuoso/microservices-book",
       "github": true
     }
   ],
