@@ -83,6 +83,16 @@
       "github": true
     },
     {
+      "name": "Criação de um torneio",
+      "url": "https://github.com/MarcusFurtuoso/torneio",
+      "github": true
+    },
+    {
+      "name": "Criação da API do torneio",
+      "url": "https://github.com/MarcusFurtuoso/torneio-api",
+      "github": true
+    },
+    {
       "name": "Criação de uma API de livros com arquitetura de microsserviços",
       "url": "https://github.com/MarcusFurtuoso/microservices-book",
       "github": true
