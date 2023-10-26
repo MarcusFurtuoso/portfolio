@@ -30,20 +30,20 @@
         "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/js.png"
       },
       {
-        "name": "Flutter",
-        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/flutter.png"
+        "name": "Node.JS",
+        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/html.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/css.png"
+        "name": ".NET",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
       },
       {
         "name": "Docker",
         "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/docker.png"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/mongodb.pnj"
       },
       {
         "name": "MySQL",
@@ -122,6 +122,18 @@
       "date": "set - 2021",
       "description": "Curso de Java com Spring Boot e Angular.",
       "url": "https://www.dio.me/certificate/01C98B04/share"
+    },
+    {
+      "name": "IFS Huawei | HCIA Inteligência Artificial",
+      "date": "set - 2023",
+      "description": "Curso proporcionado pela Huawei em parceria com o IFS.",
+      "url": "7d4eb6be34f1ff94e7781b68788bade3"
+    },
+    {
+      "name": "Cibersecurity Essentials",
+      "date": "set - 2023",
+      "description": "Curso de cibersegurança da Cisco.",
+      "url": "https://www.credly.com/badges/ef3a1de9-3e55-47ac-bece-40e75925b37a/linked_in?t=s1wpd6"
     }
   ]
 }
