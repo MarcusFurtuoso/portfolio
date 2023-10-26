@@ -35,7 +35,7 @@
       },
       {
         "name": ".NET",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
+        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/.NET_Core_Logo.png"
       },
       {
         "name": "Docker",
@@ -43,7 +43,7 @@
       },
       {
         "name": "MongoDB",
-        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/mongodb.pnj"
+        "logo": "https://raw.githubusercontent.com/MarcusFurtuoso/portfolio/main/data/imgs/mongodb.png"
       },
       {
         "name": "MySQL",
