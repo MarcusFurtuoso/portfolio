@@ -68,13 +68,13 @@
   ],
   "portfolio": [
     {
-      "name": "Criação de uma Pokedex consumindo a API do poke.api",
-      "url": "https://github.com/MarcusFurtuoso/pokedex",
+      "name": "Criação de crud em angular com login",
+      "url": "https://github.com/MarcusFurtuoso/crud-sm",
       "github": true
     },
     {
-      "name": "Criação de uma landing page",
-      "url": "https://github.com/MarcusFurtuoso/landing-page",
+      "name": "Criação de um app de mensagens em angular",
+      "url": "https://github.com/MarcusFurtuoso/messaging-app",
       "github": true
     },
     {
