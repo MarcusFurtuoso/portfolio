@@ -68,7 +68,7 @@
   ],
   "portfolio": [
     {
-      "name": "Criação de crud em angular com login",
+      "name": "Criação de sistema em angular com login",
       "url": "https://github.com/MarcusFurtuoso/crud-sm",
       "github": true
     },
@@ -138,8 +138,14 @@
     {
       "name": "AWS Academy Cloud Foundations",
       "date": "out - 2023",
-      "description": "Curso da AWS de nuvem.",
+      "description": "Curso da AWS com fundamentos da nuvel.",
       "url": "https://www.credly.com/go/J7eeoQA8"
+    },
+    {
+      "name": "AWS Academy Cloud Architecting",
+      "date": "dez - 2023",
+      "description": "Curso da AWS com implatação de sistemas em nuvem.",
+      "url": "https://www.credly.com/go/32IsZrLl"
     }
   ]
 }
