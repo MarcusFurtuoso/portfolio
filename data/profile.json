@@ -68,27 +68,27 @@
   ],
   "portfolio": [
     {
-      "name": "Criação de sistema em angular com login",
+      "name": "Sistema em angular com login",
       "url": "https://github.com/MarcusFurtuoso/crud-sm",
       "github": true
     },
     {
-      "name": "Criação de um app de mensagens em angular",
+      "name": "App de mensagens em angular",
       "url": "https://github.com/MarcusFurtuoso/messaging-app",
       "github": true
     },
     {
-      "name": "Criação do meu portfólio",
+      "name": "Meu portfólio",
       "url": "https://github.com/MarcusFurtuoso/portfolio",
       "github": true
     },
     {
-      "name": "Criação de um torneio",
+      "name": "Sistema web de um torneio",
       "url": "https://github.com/MarcusFurtuoso/torneio",
       "github": true
     },
     {
-      "name": "Criação da API do torneio",
+      "name": "API do torneio",
       "url": "https://github.com/MarcusFurtuoso/torneio-api",
       "github": true
     },
