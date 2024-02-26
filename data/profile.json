@@ -68,13 +68,13 @@
   ],
   "portfolio": [
     {
-      "name": "Sistema em angular com login",
-      "url": "https://github.com/MarcusFurtuoso/crud-sm",
+      "name": "App de tarefas com ionic",
+      "url": "https://github.com/MarcusFurtuoso/task-app",
       "github": true
     },
     {
-      "name": "App de contatos em angular",
-      "url": "https://github.com/MarcusFurtuoso/messaging-app",
+      "name": "Sistema em angular com login",
+      "url": "https://github.com/MarcusFurtuoso/crud-sm",
       "github": true
     },
     {
