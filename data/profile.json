@@ -68,6 +68,11 @@
   ],
   "portfolio": [
     {
+      "name": "App de treinos em Angular",
+      "url": "https://github.com/MarcusFurtuoso/gym-pro",
+      "github": true
+    },
+    {
       "name": "App de tarefas com ionic",
       "url": "https://github.com/MarcusFurtuoso/task-app",
       "github": true
